@@ -1,4 +1,4 @@
-package sudoku_solver;
+package testChoco;
 
 import org.chocosolver.solver.variables.IntVar;
 
@@ -7,3 +7,4 @@ interface Box {
 
 	public String toString(boolean isSolve);
 }
+

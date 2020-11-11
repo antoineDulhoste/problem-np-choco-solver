@@ -1,4 +1,4 @@
-package sudoku_solver;
+package testChoco;
 
 import org.chocosolver.solver.Model;
 import org.chocosolver.solver.variables.IntVar;

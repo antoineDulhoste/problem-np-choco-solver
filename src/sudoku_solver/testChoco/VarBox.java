@@ -1,4 +1,4 @@
-package sudoku_solver;
+package testChoco;
 
 import org.chocosolver.solver.Model;
 import org.chocosolver.solver.variables.IntVar;
@@ -8,7 +8,7 @@ public class VarBox implements Box {
 	private final IntVar var; 
 
 	public VarBox(int rowIdx, int colIdx, Model model) {
-		var = model.intVar("" + rowIdx + "" + colIdx, 1, 9);
+		var = model.intVar("" + rowIdx + "" + colIdx, 1, 16);
 	}
 
 
